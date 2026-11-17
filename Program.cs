@@ -7,5 +7,9 @@ class Program
         Console.WriteLine("222");
         Console.WriteLine("ОБНОВА БРАВЛ СТАРС");
         Console.WriteLine("3 сохр");
+
+
+
+        Console.WriteLine("new text");
     }
 }
