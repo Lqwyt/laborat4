@@ -12,5 +12,6 @@ class Program
 
         Console.WriteLine("new text");
         Console.WriteLine("new text777777777");
+        Console.WriteLine("вавв");
     }
 }
