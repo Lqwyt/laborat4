@@ -3,7 +3,7 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("TEST_TEXT");
+        Console.WriteLine("master123");
         Console.WriteLine("222");
         Console.WriteLine("ОБНОВА БРАВЛ СТАРС");
         Console.WriteLine("3 сохр");
