@@ -1,0 +1,162 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="az5-pzrh0vSt2YAKbV6q">
+    <mxGraphModel dx="1259" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" plantUmlId="e_7" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;align=center;curved=1;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Вызов / Управление" id="JJpR0RlpI6A8mlKzJRoz-9">
+          <mxCell edge="1" parent="1" source="JJpR0RlpI6A8mlKzJRoz-2" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;align=center;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JJpR0RlpI6A8mlKzJRoz-4">
+            <mxGeometry relative="1" x="1" y="-52" as="geometry">
+              <mxPoint x="-3" y="3" as="offset" />
+              <Array as="points" />
+              <mxPoint x="596.56" y="99" as="sourcePoint" />
+              <mxPoint x="428.5" y="175" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Головной модуль&#xa;M1" plantUmlId="n_0" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=3;strokeWidth=1;fillColor=#F9F9F9;strokeColor=#333333;whiteSpace=wrap;fontSize=14;align=center;" plantUmlBaseValue="Головной модуль&#xa;[Main module / M1]" id="JJpR0RlpI6A8mlKzJRoz-2">
+          <mxCell parent="1" style="rounded=1;absoluteArcSize=1;arcSize=3;strokeWidth=1;fillColor=#F9F9F9;strokeColor=#333333;whiteSpace=wrap;fontSize=14;align=center;container=0;" vertex="1">
+            <mxGeometry height="49" width="167" x="440" y="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Модуль управления&#xa;работодателями&#xa;M1.1" plantUmlId="n_1" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=3;strokeWidth=1;fillColor=#F9F9F9;strokeColor=#333333;whiteSpace=wrap;fontSize=14;align=center;" plantUmlBaseValue="Модуль управления&#xa;работодателями&#xa;[M1.1]" id="JJpR0RlpI6A8mlKzJRoz-3">
+          <mxCell parent="1" style="rounded=1;absoluteArcSize=1;arcSize=3;strokeWidth=1;fillColor=#F9F9F9;strokeColor=#333333;whiteSpace=wrap;fontSize=14;align=center;container=0;" vertex="1">
+            <mxGeometry height="62" width="169" x="120" y="177" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Модуль управления&#xa;соискателями&#xa;M1.2" plantUmlId="n_2" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=3;strokeWidth=1;fillColor=#F9F9F9;strokeColor=#333333;whiteSpace=wrap;fontSize=14;align=center;" plantUmlBaseValue="Модуль управления&#xa;соискателями&#xa;[M1.2]" id="JJpR0RlpI6A8mlKzJRoz-4">
+          <mxCell parent="1" style="rounded=1;absoluteArcSize=1;arcSize=3;strokeWidth=1;fillColor=#F9F9F9;strokeColor=#333333;whiteSpace=wrap;fontSize=14;align=center;container=0;" vertex="1">
+            <mxGeometry height="62" width="169" x="344" y="175" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Модуль вакансий&#xa;и справочников&#xa;M1.3" plantUmlId="n_3" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=3;strokeWidth=1;fillColor=#F9F9F9;strokeColor=#333333;whiteSpace=wrap;fontSize=14;align=center;" plantUmlBaseValue="Модуль вакансий&#xa;и справочников&#xa;[M1.3]" id="JJpR0RlpI6A8mlKzJRoz-5">
+          <mxCell parent="1" style="rounded=1;absoluteArcSize=1;arcSize=3;strokeWidth=1;fillColor=#F9F9F9;strokeColor=#333333;whiteSpace=wrap;fontSize=14;align=center;container=0;" vertex="1">
+            <mxGeometry height="62" width="153" x="568" y="177" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Модуль договоров&#xa;и финансов&#xa;M1.4" plantUmlId="n_4" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=3;strokeWidth=1;fillColor=#F9F9F9;strokeColor=#333333;whiteSpace=wrap;fontSize=14;align=center;" plantUmlBaseValue="Модуль договоров&#xa;и финансов&#xa;[M1.4]" id="JJpR0RlpI6A8mlKzJRoz-6">
+          <mxCell parent="1" style="rounded=1;absoluteArcSize=1;arcSize=3;strokeWidth=1;fillColor=#F9F9F9;strokeColor=#333333;whiteSpace=wrap;fontSize=14;align=center;container=0;" vertex="1">
+            <mxGeometry height="62" width="161" x="776" y="175" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Модуль доступа к БД&#xa;M1.1.1" plantUmlId="n_5" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=3;strokeWidth=1;fillColor=#F9F9F9;strokeColor=#333333;whiteSpace=wrap;fontSize=14;align=center;" plantUmlBaseValue="Модуль данных&#xa;[Data module / M1.5]" id="JJpR0RlpI6A8mlKzJRoz-7">
+          <mxCell parent="1" style="rounded=1;absoluteArcSize=1;arcSize=3;strokeWidth=1;fillColor=#F9F9F9;strokeColor=#333333;whiteSpace=wrap;fontSize=14;align=center;container=0;" vertex="1">
+            <mxGeometry height="49" width="175" x="370" y="330" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_6" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;align=center;curved=1;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Вызов / Управление" id="JJpR0RlpI6A8mlKzJRoz-8">
+          <mxCell edge="1" parent="1" source="JJpR0RlpI6A8mlKzJRoz-2" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;align=center;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JJpR0RlpI6A8mlKzJRoz-3">
+            <mxGeometry relative="1" x="0.7822" y="-74" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="204.5" y="74.5" />
+              </Array>
+              <mxPoint x="568.72" y="99" as="sourcePoint" />
+              <mxPoint x="224.5" y="175" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_8" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;labelPosition=right;align=center;endArrow=classicThin;endFill=1;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Вызов / Управление" id="JJpR0RlpI6A8mlKzJRoz-10">
+          <mxCell edge="1" parent="1" source="JJpR0RlpI6A8mlKzJRoz-2" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;labelPosition=right;align=center;endArrow=classicThin;endFill=1;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="JJpR0RlpI6A8mlKzJRoz-5">
+            <mxGeometry relative="1" x="0.9878" y="80" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_9" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;align=center;curved=1;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Вызов / Управление" id="JJpR0RlpI6A8mlKzJRoz-11">
+          <mxCell edge="1" parent="1" source="JJpR0RlpI6A8mlKzJRoz-2" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;align=center;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="JJpR0RlpI6A8mlKzJRoz-6">
+            <mxGeometry relative="1" x="0.7923" y="74" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="856.5" y="74.5" />
+              </Array>
+              <mxPoint x="652.22" y="99" as="sourcePoint" />
+              <mxPoint x="816.5" y="175" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Модуль генерации&#xa;отчетов и документов&#xa;M1.3.1" plantUmlId="n_6" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=3;strokeWidth=1;fillColor=#F9F9F9;strokeColor=#333333;whiteSpace=wrap;fontSize=14;align=center;" plantUmlBaseValue="Модуль генерации&#xa;отчетов и документов&#xa;[M1.6]" id="JJpR0RlpI6A8mlKzJRoz-31">
+          <mxCell parent="1" style="rounded=1;absoluteArcSize=1;arcSize=3;strokeWidth=1;fillColor=#F9F9F9;strokeColor=#333333;whiteSpace=wrap;fontSize=14;align=center;container=0;" vertex="1">
+            <mxGeometry height="62" width="189" x="690" y="330" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_6" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;align=center;curved=1;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Вызов / Управление" id="JJpR0RlpI6A8mlKzJRoz-33">
+          <mxCell edge="1" parent="1" source="JJpR0RlpI6A8mlKzJRoz-3" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;align=center;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="JJpR0RlpI6A8mlKzJRoz-7">
+            <mxGeometry relative="1" x="0.7198" y="-74" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points" />
+              <mxPoint x="495.5" y="90.5" as="sourcePoint" />
+              <mxPoint x="260.5" y="192.5" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_6" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;align=center;curved=1;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Вызов / Управление" id="JJpR0RlpI6A8mlKzJRoz-34">
+          <mxCell edge="1" parent="1" source="JJpR0RlpI6A8mlKzJRoz-4" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;align=center;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.38;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="JJpR0RlpI6A8mlKzJRoz-7">
+            <mxGeometry relative="1" x="0.8672" y="-74" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points" />
+              <mxPoint x="430" y="238.5" as="sourcePoint" />
+              <mxPoint x="305.5" y="459" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="JJpR0RlpI6A8mlKzJRoz-39" connectable="0" parent="JJpR0RlpI6A8mlKzJRoz-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=13;fontColor=#000000;labelBackgroundColor=#FFFFFF;" value="Сросшиеся ветви" vertex="1">
+          <mxGeometry relative="1" x="0.1208" y="2" as="geometry">
+            <mxPoint x="23" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="" plantUmlId="e_6" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;align=center;curved=1;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Вызов / Управление" id="JJpR0RlpI6A8mlKzJRoz-35">
+          <mxCell edge="1" parent="1" source="JJpR0RlpI6A8mlKzJRoz-5" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;align=center;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.295;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" target="JJpR0RlpI6A8mlKzJRoz-7">
+            <mxGeometry relative="1" x="0.8672" y="-74" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points" />
+              <mxPoint x="483" y="260" as="sourcePoint" />
+              <mxPoint x="420" y="334.5" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_6" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;align=center;curved=1;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Вызов / Управление" id="JJpR0RlpI6A8mlKzJRoz-36">
+          <mxCell edge="1" parent="1" source="JJpR0RlpI6A8mlKzJRoz-6" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;align=center;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="JJpR0RlpI6A8mlKzJRoz-7">
+            <mxGeometry relative="1" x="0.8672" y="-74" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points" />
+              <mxPoint x="866" y="250" as="sourcePoint" />
+              <mxPoint x="610" y="324" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_6" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;align=center;curved=1;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Вызов / Управление" id="JJpR0RlpI6A8mlKzJRoz-37">
+          <mxCell edge="1" parent="1" source="JJpR0RlpI6A8mlKzJRoz-5" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;align=center;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.691;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;" target="JJpR0RlpI6A8mlKzJRoz-31">
+            <mxGeometry relative="1" x="0.8672" y="-74" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points" />
+              <mxPoint x="866" y="250" as="sourcePoint" />
+              <mxPoint x="610" y="324" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="JJpR0RlpI6A8mlKzJRoz-40" connectable="0" parent="JJpR0RlpI6A8mlKzJRoz-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=13;fontColor=#000000;labelBackgroundColor=#FFFFFF;" value="Сросшиеся ветви" vertex="1">
+          <mxGeometry relative="1" x="0.3682" y="2" as="geometry">
+            <mxPoint x="57" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="" plantUmlId="e_6" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;align=center;curved=1;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Вызов / Управление" id="JJpR0RlpI6A8mlKzJRoz-38">
+          <mxCell edge="1" parent="1" source="JJpR0RlpI6A8mlKzJRoz-6" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;align=center;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="JJpR0RlpI6A8mlKzJRoz-31">
+            <mxGeometry relative="1" x="0.8672" y="-74" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points" />
+              <mxPoint x="1076" y="290" as="sourcePoint" />
+              <mxPoint x="820" y="364" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="JJpR0RlpI6A8mlKzJRoz-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Четыре точки входа" vertex="1">
+          <mxGeometry height="30" width="100" x="400" y="392" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpR0RlpI6A8mlKzJRoz-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Две точки входа" vertex="1">
+          <mxGeometry height="30" width="100" x="734.5" y="400" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
